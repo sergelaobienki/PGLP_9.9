@@ -11,11 +11,11 @@ public class DessinApp {
     /**
      * DrawingTUI.
      */
-    private DrawingTUI dt;
+    private DessinTUI dt;
     /**
      * Constructeur.
      */
-    public DessingApp() {
+    public DessinApp() {
         this.scanner = new Scanner(System.in);
         dt = new DessinTUI();
     }
