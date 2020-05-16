@@ -1,10 +1,12 @@
 package PGLP_9_9.Exercice_9_9;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 
 public class CarreTest {
 	@Test
-	public void testConstructeur() {
+	public void testConstructeur() throws Exception {
 		Position p1 = new Position(15,20);
 		Carre c = new Carre("c1", p1, 10);
 		assertTrue(c.getNom().equals("c1") && c.getCentre().getX() == p1.getX() 
@@ -12,7 +14,7 @@ public class CarreTest {
 	}
 	
 	@Test
-	public void testSetter() {
+	public void testSetter() throws Exception {
 		Position p1 = new Position(15,20);
 		Carre c = new Carre("c1", p1, 10);
 		p1.setX(p1.getX() + 10);
@@ -24,7 +26,7 @@ public class CarreTest {
 	}
 	
 	@Test
-	public void testMove() {
+	public void testMove() throws Exception {
 		Position p1 = new Position(15,20);
 		Carre c = new Carre("c1", p1, 10);
 		c.move(10, 20);
@@ -35,7 +37,7 @@ public class CarreTest {
 	}
 	
 	@Test
-	public void testDraw() {
+	public void testDraw() throws Exception {
 		Position p1 = new Position(15,20);
 		Carre c = new Carre("c1", p1, 10);
 		c.draw();
