@@ -1,5 +1,10 @@
 package PGLP_9_9.Exercice_9_9;
 
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 public class RectangleDaoJDBC extends AbstractDao<Rectangle> {
     /**
      * Constructeur.

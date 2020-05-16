@@ -1,5 +1,10 @@
 package PGLP_9_9.Exercice_9_9;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public  abstract class DataBase {
     /**
      * Création de la base de données.
