@@ -214,4 +214,9 @@ public class TriangleDaoJDBC extends AbstractDao<Triangle> {
             @Override
             public Triangle update(final Triangle t) {
                 Triangle t2 = this.find(t.getNom());
-                if (t2 != null) {
+                if (t2 != null) 
+			@Override
+			public void delete(Triangle t) {
+				// TODO Auto-generated method stub
+				
+			}}

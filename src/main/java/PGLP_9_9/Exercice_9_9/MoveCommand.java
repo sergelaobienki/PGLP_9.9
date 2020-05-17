@@ -1,5 +1,8 @@
 package PGLP_9_9.Exercice_9_9;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 public class MoveCommand implements Command {
     /**
      * Forme a deplacer.
