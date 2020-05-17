@@ -5,13 +5,41 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public  abstract class DataBase {
+public   class DataBase {
     /**
      * Création de la base de données.
      * @return Le connecteur a la base
      * @throws SQLException
      */
+
+	private static String JDBC_URL="jdbc:derby:DessinDB;create=true";
+	private static final String DRIVER="org.apache.derby.jdbc.EmbeddedDriver";
+
     public static Connection createBase() {
+       	 	
+    	Connection conn=null;
+    		try {
+    			
+    			Class.forName(DRIVER);			
+    			conn=DriverManager.getConnection(JDBC_URL);
+    			System.out.println("connection reuissi");
+    		
+    		} catch (SQLException e )
+    		{
+    			System.out.println("echec de connexion");
+    		}
+    		catch (ClassNotFoundException e) 
+    		{
+    			System.out.println(e.getMessage());
+    			System.out.println("ERREUR : charger derby.jdbc.EmbeddedDriver ");	       
+    	    }
+    		return conn;
+    	
+    }
+    	
+    	
+   /* 	
+    	
         try {
             return DriverManager.getConnection(
                     "jdbc:derby:DataForme;create=true");
@@ -20,6 +48,7 @@ public  abstract class DataBase {
             return null;
         }
     }
+    */
     /**
      * Supprime toutes les tables de la base de données.
      * @param connect Le connecteur a la base
