@@ -38,17 +38,7 @@ public   class DataBase {
     }
     	
     	
-   /* 	
-    	
-        try {
-            return DriverManager.getConnection(
-                    "jdbc:derby:DataForme;create=true");
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    */
+   
     /**
      * Supprime toutes les tables de la base de données.
      * @param connect Le connecteur a la base

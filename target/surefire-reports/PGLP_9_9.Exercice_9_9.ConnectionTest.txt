@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: PGLP_9_9.Exercice_9_9.ConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.04 s - in PGLP_9_9.Exercice_9_9.ConnectionTest
