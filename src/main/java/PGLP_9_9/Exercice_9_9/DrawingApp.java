@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 /**
- * Classe DessinApp.
+ * Classe DrawingApp.
  *
  */
-public class DessinApp {
+public class DrawingApp {
 	 /**
      * Scanner.
      */
@@ -16,13 +16,13 @@ public class DessinApp {
     /**
      * DrawingTUI.
      */
-    private DessinTUI dt;
+    private DrawingTUI dt;
     /**
      * Constructeur.
      */
-    public DessinApp() {
+    public DrawingApp() {
         this.scanner = new Scanner(System.in);
-        dt = new DessinTUI();
+        dt = new DrawingTUI();
     }
     /**
      * Lance l'execution du programme.
@@ -34,7 +34,7 @@ public class DessinApp {
         DataBase.deleteAllTables(connect);
         DataBase.createAllTables(connect);
         connect.close();
-        DessinApp da = new DessinApp();
+        DrawingApp da = new DrawingApp();
         da.run();
     }
     /**

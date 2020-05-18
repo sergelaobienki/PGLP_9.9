@@ -4,11 +4,11 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DessinTUI {
+public class DrawingTUI {
 	/**
      * Constructeur.
      */
-    public DessinTUI() {
+    public DrawingTUI() {
     }
     /**
      * Lecture d'une commande pour créer un cercle.
