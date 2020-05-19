@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Tue May 19 21:00:53 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-2ebd-3c54-000002f73b00 
+Tue May 19 22:18:47 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-2f04-8b8f-000002f745d0 
 on database directory /home/ki/eclipse-workspace/PGLP9.9/DessinDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
 Loaded from file:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Ubuntu
@@ -10,5 +10,4 @@ os.name=Linux
 os.arch=amd64
 os.version=4.15.0-99-generic
 derby.system.home=null
-Incomplete log record detected in file /home/ki/eclipse-workspace/PGLP9.9/DessinDB/log/log1.dat clearing log file from position 386 202 to eof at 1 048 576.
 Database Class Loader started - derby.database.classpath=''
