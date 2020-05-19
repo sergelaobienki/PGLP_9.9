@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class DessinAppTest {
+public class DrawingAppTest {
 	@Test
 	public void test() throws SQLException {
 	}

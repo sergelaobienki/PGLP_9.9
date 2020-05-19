@@ -10,7 +10,7 @@ public class GroupeFormeDaoJDBC {
 
 	public static void deleteFormeGroupe(Connection connect, String nom) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public static boolean checkFormeInGroupe(Connection c, String nom) {
@@ -20,7 +20,7 @@ public class GroupeFormeDaoJDBC {
 
 	public static void deleteGroupeForme(Connection connect, String nom) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public static ArrayList<Forme> findGroupeForme(Connection connect, String nom) {
@@ -30,7 +30,7 @@ public class GroupeFormeDaoJDBC {
 
 	public static void createGroupeForme(Connection connect, String nom, String nom2) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
