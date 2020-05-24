@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PGLP_9_9.Exercice_9_9.ConnectionTest" time="1.269" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PGLP_9_9.Exercice_9_9.ConnectionTest" time="0.47" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter11435904362176564110.jar /home/ki/eclipse-workspace/PGLP_9.9/target/surefire 2020-05-24T13-48-40_107-jvmRun1 surefire13554131137828838469tmp surefire_017270351336612932681tmp"/>
+    <property name="sun.java.command" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter13712951899032224918.jar /home/ki/eclipse-workspace/PGLP_9.9/target/surefire 2020-05-24T15-58-11_850-jvmRun1 surefire18135156074333969311tmp surefire_011263567419988491667tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/test-classes:/home/ki/eclipse-workspace/PGLP_9.9/target/classes:/home/ki/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar:/home/ki/.m2/repository/org/springframework/spring-jdbc/5.2.5.RELEASE/spring-jdbc-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-jcl/5.2.5.RELEASE/spring-jcl-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter11435904362176564110.jar"/>
+    <property name="surefire.real.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter13712951899032224918.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
     <property name="user.name" value="ki"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testconne" classname="PGLP_9_9.Exercice_9_9.ConnectionTest" time="1.269"/>
+  <testcase name="testconne" classname="PGLP_9_9.Exercice_9_9.ConnectionTest" time="0.47"/>
 </testsuite>
