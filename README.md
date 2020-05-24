@@ -50,7 +50,7 @@ Pour passer une commande voici les exemples de commandes valides:
     Pour créer un rectancle: r1 =Rectangle((0, 0), 40, 10)
     Pour créer un triangle: t1 =Triangle((0, 0), (2, 2), (4, 0))
     Pour déplacer le cercle c1 : move(c1, (10, 20))
-    Pour quitter le programme: Exit
+    Pour quitter le programme: exit
 
 Compilation et execution du projet:
 
