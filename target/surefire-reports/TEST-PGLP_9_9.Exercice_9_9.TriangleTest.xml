@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PGLP_9_9.Exercice_9_9.TriangleTest" time="0" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PGLP_9_9.Exercice_9_9.TriangleTest" time="0.011" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/ki/eclipse-workspace/PGLP9.9/target/test-classes:/home/ki/eclipse-workspace/PGLP9.9/target/classes:/home/ki/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar:/home/ki/.m2/repository/org/springframework/spring-jdbc/5.2.5.RELEASE/spring-jdbc-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-jcl/5.2.5.RELEASE/spring-jcl-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar:"/>
+    <property name="java.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/test-classes:/home/ki/eclipse-workspace/PGLP_9.9/target/classes:/home/ki/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar:/home/ki/.m2/repository/org/springframework/spring-jdbc/5.2.5.RELEASE/spring-jdbc-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-jcl/5.2.5.RELEASE/spring-jcl-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ki/eclipse-workspace/PGLP9.9/target/surefire/surefirebooter6195249308129323871.jar /home/ki/eclipse-workspace/PGLP9.9/target/surefire 2020-05-19T22-18-45_088-jvmRun1 surefire8471282384558102387tmp surefire_09414460737237638332tmp"/>
+    <property name="sun.java.command" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter11435904362176564110.jar /home/ki/eclipse-workspace/PGLP_9.9/target/surefire 2020-05-24T13-48-40_107-jvmRun1 surefire13554131137828838469tmp surefire_017270351336612932681tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/ki/eclipse-workspace/PGLP9.9/target/test-classes:/home/ki/eclipse-workspace/PGLP9.9/target/classes:/home/ki/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar:/home/ki/.m2/repository/org/springframework/spring-jdbc/5.2.5.RELEASE/spring-jdbc-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-jcl/5.2.5.RELEASE/spring-jcl-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar:"/>
+    <property name="surefire.test.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/test-classes:/home/ki/eclipse-workspace/PGLP_9.9/target/classes:/home/ki/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/ki/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ki/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar:/home/ki/.m2/repository/org/springframework/spring-jdbc/5.2.5.RELEASE/spring-jdbc-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-jcl/5.2.5.RELEASE/spring-jcl-5.2.5.RELEASE.jar:/home/ki/.m2/repository/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/ki"/>
     <property name="user.language" value="fr"/>
@@ -26,18 +26,18 @@
     <property name="java.version.date" value="2020-04-14"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/ki/eclipse-workspace/PGLP9.9"/>
+    <property name="basedir" value="/home/ki/eclipse-workspace/PGLP_9.9"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/ki/eclipse-workspace/PGLP9.9/target/surefire/surefirebooter6195249308129323871.jar"/>
+    <property name="surefire.real.class.path" value="/home/ki/eclipse-workspace/PGLP_9.9/target/surefire/surefirebooter11435904362176564110.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
     <property name="user.name" value="ki"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.15.0-99-generic"/>
+    <property name="os.version" value="4.15.0-101-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.7"/>
-    <property name="user.dir" value="/home/ki/eclipse-workspace/PGLP9.9"/>
+    <property name="user.dir" value="/home/ki/eclipse-workspace/PGLP_9.9"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDraw" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0"/>
+  <testcase name="testDraw" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0.002"/>
   <testcase name="testMove" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0"/>
   <testcase name="testConstructeur" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0"/>
-  <testcase name="testSetter" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0"/>
+  <testcase name="testSetter" classname="PGLP_9_9.Exercice_9_9.TriangleTest" time="0.001"/>
 </testsuite>

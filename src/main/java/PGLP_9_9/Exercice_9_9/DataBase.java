@@ -23,7 +23,7 @@ public class DataBase {
 
 			Class.forName(DRIVER);
 			conn = DriverManager.getConnection(JDBC_URL);
-			System.out.println("connection reuissi");
+			System.out.println("Connexion Reussie");
 
 		} catch (SQLException e) {
 			System.out.println("echec de connexion");
