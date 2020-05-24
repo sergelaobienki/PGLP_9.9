@@ -40,7 +40,6 @@ Syntaxes valides pour passer une commande:
     •     Création d'un rectancle: NomRectangle =Rectangle((Point1_X, Point1_Y), longueur, largeur)
     •     Création d'un triangle: NomTriangle =Triangle((Point1_X, Point1_Y), (Point2_X, Point2_Y), (Point3_X, Point3_Y)
     •     Création d'un groupe: NomGroupe =Groupe(NomCercle, Nomcarre, NomRectangle, NomTriangle NomTriangle  )
-    •     Pour afficher le triangle t1: view t1
     •     Pour déplacer une figure : move(NomFigure, (Point1, Point2))
     •     Pour quitter le programme: exit
 
@@ -50,7 +49,6 @@ Pour passer une commande voici les exemples de commandes valides:
     Pour créer un carré: c2 =Carre((0, 0), 30)
     Pour créer un rectancle: r1 =Rectangle((0, 0), 40, 10)
     Pour créer un triangle: t1 =Triangle((0, 0), (2, 2), (4, 0))
-    Pour afficher le triangle t1: view t1
     Pour déplacer le cercle c1 : move(c1, (10, 20))
     Pour quitter le programme: Exit
 
