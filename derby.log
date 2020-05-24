@@ -1,4 +1,4 @@
-Sun May 24 16:32:02 GMT 2020 Thread[main,5,main] Cleanup action starting
+Sun May 24 17:22:13 GMT 2020 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Failed to start database 'DessinDB' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057, see the next exception for details.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)

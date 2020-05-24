@@ -85,7 +85,21 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
-
+				<plugin>
+					<!-- Build an executable JAR -->
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.1.0</version>
+					<configuration>
+						<archive>
+							<manifest>
+								<addClasspath>true</addClasspath>
+								<classpathPrefix>lib/</classpathPrefix>
+								<mainClass>PGLP_9_9.Exercice_9_9.DrawingApp</mainClass>
+							</manifest>
+						</archive>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 
@@ -119,6 +133,7 @@
 				<artifactId>spotbugs-maven-plugin</artifactId>
 				<version>3.1.8</version>
 			</plugin>
+
 
 		</plugins>
 	</reporting>
